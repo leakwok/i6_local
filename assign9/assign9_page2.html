@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+        
+        
+        <title>Assignment 9 - jQuery - Page 2</title>
+        <h1 align="center">Assignment 9 - jQuery - Page 2</h1>
+    
+        <style>
+            body {
+                    background: url(assign9_images/NEWmetopera.png) no-repeat scroll center ;
+                    background-position: 30px 300px;
+                    
+            }
+          
+            .ui-menu { width: 150px; }
+
+            
+        </style>
+    
+    
+    </head>
+
+    <body>
+        <ul id="mymenu">
+            <li><div><a href="../index.html">Assignments Page</a></div>
+                <ul>
+                    <li><div><a href="../assignment1.html">Assignment 1</a></div></li>
+                    <li><div><a href="../assign2/assignment2_page1.html">Assignment 2 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign2/assignment2_page2.html">Assignment 2 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign3/assign3.html">Assignment 3</a></div></li>
+                    <li><div><a href="../assign4/assignment4_page1.html">Assignment 4 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign4/assignment4_page2.html">Assignment 4 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign5/assign5_page1.html">Assignment 5 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign5/assign5_page2.html">Assignment 5 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign6/assign6.html">Assignment 6</a></div></li>
+                    <li><div><a href="../assign7/assign7_page1.html">Assignment 7 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign7/assign7_page2.html">Assignment 7 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign8_bootstrap/index.html">Assignment 8</a></div></li>
+                </ul>
+            </li>
+            <li><div><a href="assign9_page1.html">Move the Piece!</a></div></li>
+            <li><div><a href="assign9_page2.html">Drag the Pieces!</a></div></li>
+        </ul>
+        
+        <h2>Metropolitan Opera House</h2>
+        <p>Click and drag the pieces to solve the puzzle!</p>
+        
+        <img class="moveit" style="position:absolute; top:688px; left:524px;" src="assign9_images/assign9_puzzle_pieces/piece1.png">
+        <img class="moveit" style="position:absolute; top:791px; left:466px;" src="assign9_images/assign9_puzzle_pieces/piece2.png">
+        <img class="moveit" style="position:absolute; top:577px; left:376px;" src="assign9_images/assign9_puzzle_pieces/piece3.png">
+        <img class="moveit" style="position:absolute; top:672px; left:619px;" src="assign9_images/assign9_puzzle_pieces/piece4.png">
+        <img class="moveit" style="position:absolute; top:707px; left:484px;" src="assign9_images/assign9_puzzle_pieces/piece5.png">
+        <img class="moveit" style="position:absolute; top:296px; left:307px;" src="assign9_images/assign9_puzzle_pieces/piece6.png">
+        <img class="moveit" style="position:absolute; top:440px; left:240px;" src="assign9_images/assign9_puzzle_pieces/piece7.png">
+        <img class="moveit" style="position:absolute; top:578px; left:598px;" src="assign9_images/assign9_puzzle_pieces/piece8.png">
+        <img class="moveit" style="position:absolute; top:642px; left:224px;" src="assign9_images/assign9_puzzle_pieces/piece9.png">
+        <img class="moveit" style="position:absolute; top:466px; left:302px;" src="assign9_images/assign9_puzzle_pieces/piece10.png">
+        <img class="moveit" style="position:absolute; top:372px; left:572px;" src="assign9_images/assign9_puzzle_pieces/piece11.png">
+        <img class="moveit" style="position:absolute; top:636px; left:75px;" src="assign9_images/assign9_puzzle_pieces/piece12.png">
+        <img class="moveit" style="position:absolute; top:731px; left:683px;" src="assign9_images/assign9_puzzle_pieces/piece13.png">
+        <img class="moveit" style="position:absolute; top:423px; left:486px;" src="assign9_images/assign9_puzzle_pieces/piece14.png">
+        <img class="moveit" style="position:absolute; top:723px; left:71px;" src="assign9_images/assign9_puzzle_pieces/piece15.png">
+        <img class="moveit" style="position:absolute; top:739px; left:263px;" src="assign9_images/assign9_puzzle_pieces/piece16.png">
+        <img class="moveit" style="position:absolute; top:385px; left:67px;" src="assign9_images/assign9_puzzle_pieces/piece17.png">
+        <img class="moveit" style="position:absolute; top:302px; left:586px;" src="assign9_images/assign9_puzzle_pieces/piece18.png">
+        <img class="moveit" style="position:absolute; top:383px; left:167px;" src="assign9_images/assign9_puzzle_pieces/piece19.png">
+        <img class="moveit" style="position:absolute; top:326px; left:354px;" src="assign9_images/assign9_puzzle_pieces/piece20.png">
+        
+        
+        <script>
+            $("#mymenu").menu();
+            
+            $(function() {
+                $( ".moveit" ).draggable();
+              });
+        
+        </script>
+    </body>
+    
+
+</html>

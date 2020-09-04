@@ -1,0 +1,87 @@
+/* custom css styles */
+
+body {
+  padding-top: 50px;
+} /* from the custom sheet from the starter template */
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+} /* from the custom sheet from the starter template */
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+} /* found on stackoverflow https://stackoverflow.com/questions/10591422/bootstrap-carousel-image-doesnt-align-properly */
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.footer {
+  position: absolute;
+  min-height: 50px;
+  background-color:#222;
+  border-color: #e7e7e7;
+  width:100%;
+  margin-top:30px;
+  
+}
+
+.text-muted {
+  color: #777;
+  margin: 10px;
+  font-size:16px;
+}
+
+.tab-pane {
+            margin:10px;
+            font-size: 14px;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #000 #000 #000;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 45%;
+}
+
+.container .row .btn-group a.button:hover {
+                color:coral;
+}
+
+blockquote.hover:hover {
+                        font-size:150%;
+                        color:#5099ec;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+h6.special {
+    text-align:center;
+}
+
+span.starhover:hover {
+                color:#e6ec50;
+}
+
+span.bighover:hover {
+                font-size: 200%;
+                color:red;
+}

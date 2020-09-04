@@ -1,0 +1,61 @@
+/* desktop stylesheet assign7 */
+
+#container {
+            width: 92%;
+            margin: auto;
+    
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: Times New Roman, times, serif;
+    
+}
+
+h4 {
+    font-family: georgia , times, serif;
+    
+}
+
+
+p {
+   font-family: verdana, arial, sans-serif; 
+    
+}
+
+body {
+        background-color:bisque;s
+}
+
+
+.col1 {
+        float:left;
+        width: 24%;
+        margin-right:2%;
+}
+
+.col2 {
+        float:left;
+        width: 48%;
+        margin-right:2%;
+}
+
+.col3 {
+        float:left;
+        width: 24%;
+}
+
+.col4 {
+        float:left;
+        width: 100%;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
+

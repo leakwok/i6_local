@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+        
+        
+        <title>Assignment 9 - jQuery - Page 1</title>
+        <h1 align="center">Assignment 9 - jQuery - Page 1</h1>
+    
+        <style>
+            body {
+                    background: url(assign9_images/assign9_puzzle_pieces/MISSINGmetopera.png) no-repeat scroll center;
+                    background-position: 30px 300px;
+            }
+          
+            .ui-menu { width: 150px; }
+
+            
+        </style>
+    
+    
+    </head>
+
+    <body>
+        <ul id="mymenu">
+            <li><div><a href="../index.html">Assignments Page</a></div>
+                <ul>
+                    <li><div><a href="../assignment1.html">Assignment 1</a></div></li>
+                    <li><div><a href="../assign2/assignment2_page1.html">Assignment 2 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign2/assignment2_page2.html">Assignment 2 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign3/assign3.html">Assignment 3</a></div></li>
+                    <li><div><a href="../assign4/assignment4_page1.html">Assignment 4 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign4/assignment4_page2.html">Assignment 4 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign5/assign5_page1.html">Assignment 5 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign5/assign5_page2.html">Assignment 5 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign6/assign6.html">Assignment 6</a></div></li>
+                    <li><div><a href="../assign7/assign7_page1.html">Assignment 7 - Page 1</a></div>
+                        <ul>
+                            <li><div><a href="../assign7/assign7_page2.html">Assignment 7 - Page 2</a></div></li>
+                        </ul>
+                    </li>
+                    <li><div><a href="../assign8_bootstrap/index.html">Assignment 8</a></div></li>
+                </ul>
+            </li>
+            <li><div><a href="assign9_page1.html">Move the Piece!</a></div></li>
+            <li><div><a href="assign9_page2.html">Drag the Pieces!</a></div></li>
+        </ul>
+        
+        <h2>Metropolitan Opera House</h2>
+        <p>Use the buttons to move the piece!</p>
+        
+        <img class="piece7" src="assign9_images/assign9_puzzle_pieces/piece7.png" style="position:absolute; top:636px; left:456px;">
+        
+        <div>
+            <input type="button" id="up" value="Up">
+            <input type="button" id="down" value="Down">
+            <input type="button" id="left" value="Left">
+            <input type="button" id="right" value="Right">
+        </div>
+        
+        
+        <script>
+            $("#mymenu").menu();
+            
+            $("#up").click(function(){
+                $(".piece7").animate({
+                    top:"-=20",},
+                    200);
+            })
+            
+            $("#down").click(function(){
+                $(".piece7").animate({
+                    top:"+=20",},
+                    200);
+            })
+            
+            $("#left").click(function(){
+                $(".piece7").animate({
+                    left:"-=20",},
+                    200);
+            })
+            
+            $("#right").click(function(){
+                $(".piece7").animate({
+                    left:"+=20",},
+                    200);
+            })
+        
+        </script>
+        
+    </body>
+    
+
+</html>
